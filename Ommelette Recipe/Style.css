@@ -10,7 +10,36 @@ body{
     margin: auto;
     border-radius: 15px;
     padding: 20px;  
+    font-size: 16px;
+    font-weight: 300;
 }
+
+h3, .row div{
+    color: hsl(0, 100%, 67%);
+}
+
+span{
+    font-size: bold;
+    color: hsl(0, 0%, 4%);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Container div img{
     border-radius: 8px;
@@ -21,27 +50,20 @@ body{
 }
 
 .flexContainer{
+    margin-top: 20px;
     display: flex;
     box-sizing: border-box;
+    justify-content: space-around;
+    
 }
 
-.column{
-    flex-direction: column;
+.flexContainer .row div, .flexContainer .column div {
+    border-bottom: 1px solid;
 }
 
-.row{
-    flex-direction: row;
+.flexContainer div{
+    border-bottom: 1px solid;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .attribution {
