@@ -1,6 +1,6 @@
 
 body{
-    background: rgb(229, 208, 250);
+    background: rgba(248, 206, 173, 0.51);
     font-size: 16px;
 }
 
@@ -11,11 +11,11 @@ body{
     border-radius: 15px;
     padding: 20px;  
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 20;
 }
 
 h3, .row div{
-    color: hsl(0, 100%, 67%);
+    color: hsl(0, 90%, 33%);
 }
 
 span{
@@ -24,22 +24,9 @@ span{
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+hr{
+    border: 0.1px solid hsl(0, 0%, 86%);
+}
 
 .Container div img{
     border-radius: 8px;
