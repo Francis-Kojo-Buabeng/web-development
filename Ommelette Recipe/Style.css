@@ -3,7 +3,7 @@ body{
     background: rgba(248, 206, 173, 0.51);
     font-size: 16px;
 }
-
+/* .Container */
 .Container{
     background: hsl(0, 0%, 100%);
     width: 55%;
@@ -11,7 +11,7 @@ body{
     border-radius: 15px;
     padding: 20px;  
     font-size: 16px;
-    font-weight: 20;
+    font-weight: 10;
 }
 
 h3, .row div{
