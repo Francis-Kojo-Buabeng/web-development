@@ -1,6 +1,6 @@
 
 body{
-    background: rgba(248, 206, 173, 0.51);
+    background-color: #f3e3d5;
     font-size: 16px;
 }
 
@@ -12,10 +12,14 @@ body{
     padding: 20px;  
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Young Serif', sans-serif;
+    font-family: 'Young Serif','lucida sans', sans-serif;
 }
 
-h3, .row div{
+li,ol{
+    padding-bottom: 10px;
+}
+
+h2{
     color: hsl(0, 90%, 33%);
 }
 
@@ -30,18 +34,23 @@ hr{
 }
 
 .Container img{
+    display: block;
     border-radius: 8px;
-    width: 50%;
-    height: 100%;
-   object-fit: contain;
+    width: auto;
+    height: auto;
+    padding: 0 auto;
+    max-width: 100%;
+  
 
 }
 
-.flexContainer{
-    margin-top: 20px;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around; 
+tr{
+    padding: 10px;
+    border: 1px solid rgb(168, 111, 4);
+}
+
+td{
+
 }
 
 .attribution {
@@ -55,6 +64,7 @@ hr{
 
 @media (max-width: 375px){
     .Container{
+        padding: 10px;
         font-size: 12px;
     }
 }
