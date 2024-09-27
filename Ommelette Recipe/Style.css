@@ -40,17 +40,25 @@ hr{
     height: auto;
     padding: 0 auto;
     max-width: 100%;
-  
-
 }
 
 tr{
     padding: 10px;
-    border: 1px solid rgb(168, 111, 4);
+    border: 1px solid rgb(4, 40, 168);
+}
+td{
+    padding: 10px;
 }
 
-td{
+tr #color{
+    color: hsl(0, 90%, 33%);
+    border: 1px solid black;
+}
 
+#table{
+    justify-content: space-around;
+    justify-items: center;
+    
 }
 
 .attribution {
