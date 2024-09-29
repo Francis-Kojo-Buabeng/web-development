@@ -52,13 +52,11 @@ td{
 
 tr #color{
     color: hsl(0, 90%, 33%);
-    border: 1px solid black;
 }
 
 #table{
     justify-content: space-around;
-    justify-items: center;
-    
+    justify-items: center;   
 }
 
 .attribution {
