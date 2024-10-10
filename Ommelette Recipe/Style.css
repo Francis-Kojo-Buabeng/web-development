@@ -44,19 +44,6 @@ hr{
 
 tr{
     padding: 10px;
-    border: 1px solid rgb(4, 40, 168);
-}
-td{
-    padding: 10px;
-}
-
-tr #color{
-    color: hsl(0, 90%, 33%);
-}
-
-#table{
-    justify-content: space-around;
-    justify-items: center;   
 }
 
 .attribution {
@@ -70,12 +57,15 @@ tr #color{
 
 @media (max-width: 375px){
     .Container{
-        padding: 10px;
-        font-size: 12px;
+            max-width: 100%;
+            height: auto;
     }
 }
 @media (min-width: 1440px){
     .Container{
-        display: none;
+        min-width: 80%;
+    }
+    body{
+        width: max-content;
     }
 }
