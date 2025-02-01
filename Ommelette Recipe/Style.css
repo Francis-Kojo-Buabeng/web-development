@@ -1,6 +1,6 @@
 
 body{
-    background: rgb(229, 208, 250);
+    background-color: #f3e3d5;
     font-size: 16px;
 }
 
@@ -12,10 +12,15 @@ body{
     padding: 20px;  
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Young Serif','lucida sans', sans-serif;
 }
 
-h3, .row div{
-    color: hsl(0, 100%, 67%);
+li,ol{
+    padding-bottom: 10px;
+}
+
+h2{
+    color: hsl(0, 90%, 33%);
 }
 
 span{
@@ -24,47 +29,22 @@ span{
     font-weight: bold;
 }
 
+hr{
+    border: 0.1px solid hsl(0, 0%, 86%);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Container div img{
+.Container img{
+    display: block;
     border-radius: 8px;
-    width: 50%;
-    height: 100%;
-   object-fit: contain;
-
+    width: auto;
+    height: auto;
+    padding: 0 auto;
+    max-width: 100%;
 }
 
-.flexContainer{
-    margin-top: 20px;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
-    
+tr{
+    padding: 10px;
 }
-
-.flexContainer .row div, .flexContainer .column div {
-    border-bottom: 1px solid;
-}
-
-.flexContainer div{
-    border-bottom: 1px solid;
-}
-
 
 .attribution {
     font-size: 11px; 
@@ -73,4 +53,19 @@ span{
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px){
+    .Container{
+            max-width: 100%;
+            height: auto;
+    }
+}
+@media (min-width: 1440px){
+    .Container{
+        min-width: 80%;
+    }
+    body{
+        width: max-content;
+    }
 }
